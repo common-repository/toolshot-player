@@ -1,0 +1,140 @@
+.toolshot_player_ {color:#fff;}
+.toolshot_player_ .jw-title-primary.jw-reset{display: none;}
+.embed-responsive {
+    position: relative;
+    display: block;
+    margin: 20px 0 10px;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+    background: #000;
+}
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0!important;
+    bottom: 0!important;
+    left: 0!important;
+    right: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    transform: none!important;
+    border: 0;
+}
+@font-face {
+    font-family: 'jw-icons';
+    src: url('skin-player/fonts/javplayfonts.woff');
+format('woff'), url('skin-player/fonts/javplayfonts.woff'), format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'icomoon';
+    src: url('skin-player/fonts/IcoMoon-Essential.eot?8pgif7');
+    src: url('skin-player/fonts/IcoMoon-Essential.eot?8pgif7#iefix') format('embedded-opentype'), url('skin-player/fonts/IcoMoon-Essential.ttf?8pgif7') format('truetype'), url('skin-player/fonts/IcoMoon-Essential.woff?8pgif7') format('woff'), url('skin-player/fonts/IcoMoon-Essential.svg?8pgif7#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: 'icomoon'!important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.jw-plugin{
+    bottom:0!important;
+}
+.jw-dock-button{
+    height:auto!important;
+}
+.jw-skin-default .jw-dock-button{
+    height:2.5em!important;
+}
+.jw-icon {
+    -webkit-transition: color .2s linear;
+    transition: color .2s linear;
+    text-align: center;
+}
+.jw-controlbar .icon-download3:before {
+    content: "\eb0a";
+}
+.jw-controlbar .icon-fast-forward:before {
+    content: "\ea2e";
+}
+.jw-controlbar .icon-rewind:before {
+    content: "\ea2d";
+}
+.toolshot_logo_{
+    position:absolute;
+    z-index: 2147483648;
+}
+.toolshot_logo_ a{
+    text-decoration: none;
+    color:#fff;
+    opacity: .8;
+    box-shadow: none;
+}
+.toolshot_logo_ a:hover{
+    opacity: 1;
+}
+.toolshot_logo_ a img{
+    width:100%;
+}
+.toolshot_logo_ a span{
+    font-weight: bold;
+    text-shadow: 2px 0 0 rgba(0, 0, 0, 0.6), -2px 0 0 rgba(0, 0, 0, 0.6), 0 2px 0 rgba(0, 0, 0, 0.6), 0 -2px 0 rgba(0, 0, 0, 0.6), 1px 1px rgba(0, 0, 0, 0.6), -1px -1px 0 rgba(0, 0, 0, 0.6), 1px -1px 0 rgba(0, 0, 0, 0.6), -1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+#toolshot_ads{
+    position: absolute;
+    bottom: 3.7em;
+    left: calc(50% - 150px);
+    text-align: center;
+    overflow: hidden;
+    display: none;
+    z-index: 2147483649;
+    background: #fff;
+}
+#toolshot_ads > a.toolshot_ads_close_{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    padding: 0px 5px 3px 5px;
+    background: rgba(0, 0, 0, 0.48);
+    border-radius: 2px;
+    border: #fff solid 1px;
+    box-shadow: 0 0 3px #000;
+    line-height: 14px;
+    opacity: 1;
+    text-decoration: none;
+    color: #fff;
+}
+#toolshot_ads > a.toolshot_ads_close_:hover{
+    background: #000;
+}
+.toolshot_ads_btn_close_and_play_{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.toolshot_ads_btn_close_and_play_ button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#col-left .col-wrap{
+    background: #acff8b;
+    border-radius: 3px;
+    padding: 0.2em 1em;
+    border: #cacaca solid 1px;
+}
+#col-left .col-wrap hr{
+    border:none;
+    border-top:solid 1px #ffa7a7;
+}
